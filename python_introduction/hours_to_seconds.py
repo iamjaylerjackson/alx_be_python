@@ -2,7 +2,7 @@
 hours = 2
 secondsInAndHour = 3600
 
-seconds = secondsInAndHour + secondsInAndHour
+seconds = secondsInAndHour * hours
 
 print(f"{hours} hour(s) is {seconds} seconds.")
 
