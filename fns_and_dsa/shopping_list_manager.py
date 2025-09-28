@@ -2,7 +2,7 @@ shopping_list = []
 
 
 def display_menu():
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
@@ -27,7 +27,7 @@ while True:
             print(f"{item} was not found in your list.")
 
     elif choice == "3":
-        print("\nYour Shopping List:")
+        print("Your Shopping List:")
         if shopping_list:
             for i, item in enumerate(shopping_list, start=1):
                 print(f"{i}. {item}")
